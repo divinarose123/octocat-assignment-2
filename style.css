@@ -1,3 +1,5 @@
+
+
 .octodex {
     margin: 10px;
     display: flex;
@@ -9,15 +11,17 @@
 
 .octocat {
     list-style: none;
+    border-bottom: 1px solid gray;
+    
 }
+
+
 
 .octocat img {
     width: 387px;
     border:1px solid gray;
     
-    
-    
-}
+    }
 
 .authors {
     list-style: none;
@@ -59,6 +63,18 @@ div span {
     font-weight: bold;
     font-size: 15px;
 }
+
+    .arrow-down {
+    position: absolute;
+    left: 1177px;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 10px solid gray;
+  }
+  
+
 
 
 
